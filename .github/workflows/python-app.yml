@@ -36,4 +36,4 @@ jobs:
       - name: Test and run program
         run: |
           pytest || true
-          python svm_iris.py
+          pylint svm_iris.py
